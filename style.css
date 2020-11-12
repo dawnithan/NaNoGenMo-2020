@@ -1,0 +1,70 @@
+/* #484D57, #5C836E, #A5B2A4, #DCD0B1, #F0A76E */
+/* #343577, #7D61EA, #C63E77, #DB85B6, #F5F6F4 */
+
+body {
+    background-color: #343577;    
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #F5F6F4;
+}
+
+.highlight {
+    color: #DB85B6;
+}
+
+.title {
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 18;
+    font-size: 28;
+    vertical-align: bottom;
+}
+
+.parent {
+	margin-left: 25%;
+	margin-right: 25%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+	/* background-color: #7D61EA; */
+}
+
+.inner_column {
+    margin: 20px;
+}
+
+.review_score {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.positive {
+    background-color: yellowgreen;
+}
+
+.mixed {
+    background-color: goldenrod;
+}
+
+.negative {
+    background-color: tomato;
+}
